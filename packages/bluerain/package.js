@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'example-movies',
+  name: 'bluerain',
 });
 
 Package.onUse(function (api) {
@@ -12,7 +12,7 @@ Package.onUse(function (api) {
     // vulcan packages
     'vulcan:forms',
     'vulcan:accounts',
-    
+
   ]);
 
   api.addFiles('lib/stylesheets/bootstrap.min.css');
