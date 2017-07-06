@@ -1,8 +1,8 @@
 import React from 'react';
-import { withSystemNav } from 'bluerain-client-services';
+//import { withSystemNav } from 'bluerain-client-services';
 
 //import AbsoluteCenterLayout from '../layouts/AbsoluteCenterLayout';
-//import Login from '../components/Login';
+import Login from '../components/Login';
 
 
 class LoginPage extends React.Component {
@@ -29,12 +29,12 @@ class LoginPage extends React.Component {
     if (location && location.state && location.state.nextPathname) {
       onSuccessRedirectPath = location.state.nextPathname;
     }
-    // return (
-    //   <Login onSuccessRedirectPath={onSuccessRedirectPath} />
-    // );
-    return(
-      <div>login page</div>
-    )
+    return (
+      <Login onSuccessRedirectPath={onSuccessRedirectPath} />
+    );
+    // return(
+    //   <div>login page</div>
+    // )
   }
 }
 LoginPage.propTypes = {
@@ -42,4 +42,5 @@ LoginPage.propTypes = {
   systemLayout: React.PropTypes.object
 };
 
-export default withSystemNav(LoginPage);
+// export default withSystemNav(LoginPage);
+export default LoginPage;

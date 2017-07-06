@@ -4,7 +4,7 @@
 import React, { PropTypes } from 'react';
 import Input from 'reactstrap/lib/Input';
 import { Link } from 'react-router';
-import 'bluerain-bootstrap-theme/dist/css/components/login.css';
+// import 'bluerain-bootstrap-theme/dist/css/components/login.css';
 // import { withNotifications } from 'bluerain-client-services';
 import { withNotifications } from '../Notifications/withNotifications';
 

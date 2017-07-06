@@ -17,8 +17,9 @@ Package.onUse(function (api) {
 
   api.addFiles('lib/stylesheets/bootstrap.min.css');
   api.addFiles('lib/components/components/AppDrawer/AppDrawer.css');
+  // api.addFiles('../../node_modules/bluerain-bootstrap-theme/dist/css/components/login.css');
   // api.addFiles('../../node_modules/font-awesome/css/font-awesome.css');
-   api.addAssets(['lib/public/app-drawer-background.jpg'], ['client']);
+   api.addAssets(['lib/public/app-drawer-background.jpg', 'lib/public/Mevris Logo-01.svg'], ['client']);
 
 
   api.mainModule('lib/server/main.js', 'server');

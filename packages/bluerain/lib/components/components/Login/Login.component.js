@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
 import  { browserHistory, Link } from 'react-router';
 
-import 'bluerain-bootstrap-theme/dist/css/components/login.css';
-import 'bluerain-bootstrap-theme/dist/css/layouts/flexbox-layout.css';
-import 'bluerain-bootstrap-theme/dist/css/layouts/absolute-center-layout.css';
+// import 'bluerain-bootstrap-theme/dist/css/components/login.css';
+// import 'bluerain-bootstrap-theme/dist/css/layouts/flexbox-layout.css';
+// import 'bluerain-bootstrap-theme/dist/c/layouts/absolute-center-layout.css';
 // import { withNotifications } from 'bluerain-client-services';
 import { withNotifications } from '../Notifications/withNotifications';
 
@@ -83,7 +83,7 @@ class LoginComponent extends React.Component {
             <div className="row">
               <div className="col-lg-12 col-md-12 col-12">
                 <div className="form-login">
-                  <img src="Mevris Logo-01.svg" style={{margin: "auto auto 30px"}}/>
+                  <img src="/packages/bluerain/lib/public/Mevris Logo-01.svg" style={{margin: "auto auto 30px"}}/>
                   <Nav tabs>
                     <NavItem>
                       <NavLink
