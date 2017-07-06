@@ -16,6 +16,10 @@ Package.onUse(function (api) {
   ]);
 
   api.addFiles('lib/stylesheets/bootstrap.min.css');
+  api.addFiles('lib/components/components/AppDrawer/AppDrawer.css');
+  // api.addFiles('../../node_modules/font-awesome/css/font-awesome.css');
+   api.addAssets(['lib/public/app-drawer-background.jpg'], ['client']);
+
 
   api.mainModule('lib/server/main.js', 'server');
   api.mainModule('lib/client/main.js', 'client');
