@@ -23,7 +23,7 @@ class LoginPage extends React.Component {
     }
   }
 
-  render() {debugger;
+  render() {
     const { location } = this.props;
     let onSuccessRedirectPath = '/app';
     if (location && location.state && location.state.nextPathname) {
